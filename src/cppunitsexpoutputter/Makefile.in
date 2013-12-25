@@ -78,7 +78,7 @@ PRE_UNINSTALL = :
 POST_UNINSTALL = :
 build_triplet = @build@
 host_triplet = @host@
-subdir = src
+subdir = src/cppunitsexpoutputter
 DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/Makefile.am \
 	$(top_srcdir)/depcomp
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
@@ -331,7 +331,7 @@ top_srcdir = @top_srcdir@
 AM_CPPFLAGS = -I$(top_builddir)/include -I$(top_srcdir)/include
 lib_LTLIBRARIES = libcppunitsexpoutputter.la
 libcppunitsexpoutputter_la_SOURCES = SexpOutputter.cc
-libcppunitsexpoutputter_la_CPPFLAGS = -I$(top_srcdir)/include
+libcppunitsexpoutputter_la_CPPFLAGS = -I$(top_srcdir)/include/cppunitsexpoutputter
 libcppunitsexpoutputter_la_LIBADD = $(LIBADD_DL)
 all: all-am
 
@@ -346,9 +346,9 @@ $(srcdir)/Makefile.in:  $(srcdir)/Makefile.am  $(am__configure_deps)
 	      exit 1;; \
 	  esac; \
 	done; \
-	echo ' cd $(top_srcdir) && $(AUTOMAKE) --gnu src/Makefile'; \
+	echo ' cd $(top_srcdir) && $(AUTOMAKE) --gnu src/cppunitsexpoutputter/Makefile'; \
 	$(am__cd) $(top_srcdir) && \
-	  $(AUTOMAKE) --gnu src/Makefile
+	  $(AUTOMAKE) --gnu src/cppunitsexpoutputter/Makefile
 .PRECIOUS: Makefile
 Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status
 	@case '$?' in \

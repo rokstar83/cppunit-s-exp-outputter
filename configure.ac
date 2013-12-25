@@ -31,6 +31,7 @@ AC_LTDL_DLLIB
 AC_CXX_HAVE_STD
 AC_CXX_HAVE_STL
 
-AC_CONFIG_FILES([Makefile] [include/Makefile] [src/Makefile])
+AC_CONFIG_FILES([Makefile] [include/Makefile] [src/Makefile] [include/cppunitsexpoutputter/Makefile] \
+                           [src/cppunitsexpoutputter/Makefile])
 
 AC_OUTPUT

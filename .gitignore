@@ -22,3 +22,9 @@
 
 # autom4te.cache
 autom4te.cache/*
+/src/cppunitsexpoutputter/.libs/libcppunitsexpoutputter.so.0
+/src/cppunitsexpoutputter/.libs/libcppunitsexpoutputter.so.0.0.0
+/src/cppunitsexpoutputter/.deps/libcppunitsexpoutputter_la-SexpOutputter.Plo
+/src/.libs/libcppunitsexpoutputter.so.0.0.0
+/src/.libs/libcppunitsexpoutputter.so.0
+/src/.deps/libcppunitsexpoutputter_la-SexpOutputter.Plo

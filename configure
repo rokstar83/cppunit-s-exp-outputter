@@ -15791,7 +15791,7 @@ $as_echo "#define HAVE_STL /**/" >>confdefs.h
 fi
 
 
-ac_config_files="$ac_config_files Makefile include/Makefile src/Makefile"
+ac_config_files="$ac_config_files Makefile include/Makefile src/Makefile include/cppunitsexpoutputter/Makefile src/cppunitsexpoutputter/Makefile"
 
 
 cat >confcache <<\_ACEOF
@@ -16919,6 +16919,8 @@ do
     "Makefile") CONFIG_FILES="$CONFIG_FILES Makefile" ;;
     "include/Makefile") CONFIG_FILES="$CONFIG_FILES include/Makefile" ;;
     "src/Makefile") CONFIG_FILES="$CONFIG_FILES src/Makefile" ;;
+    "include/cppunitsexpoutputter/Makefile") CONFIG_FILES="$CONFIG_FILES include/cppunitsexpoutputter/Makefile" ;;
+    "src/cppunitsexpoutputter/Makefile") CONFIG_FILES="$CONFIG_FILES src/cppunitsexpoutputter/Makefile" ;;
 
   *) as_fn_error $? "invalid argument: \`$ac_config_target'" "$LINENO" 5;;
   esac
