@@ -1,2 +1,2 @@
-libcppunitsexpoutputterincludedir = $(includedir)/cppunit
+libcppunitsexpoutputterincludedir = $(includedir)/cppunitsexpoutputter
 libcppunitsexpoutputterinclude_HEADERS = SexpOutputter.h
