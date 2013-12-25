@@ -11,3 +11,14 @@
 *.lai
 *.la
 *.a
+/src/cppunitsexpoutputter/Makefile.am~
+/src/Makefile.am~
+/include/cppunitsexpoutputter/Makefile.am~
+/include/Makefile.am~
+/configure.ac~
+/config.log
+/config.sub
+/Makefile.am~
+
+# autom4te.cache
+autom4te.cache/*
